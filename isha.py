@@ -1,11 +1,11 @@
 import os
-os.environ['GOOGLE_API_KEY'] = "AIzaSyDjawTJ9JHwR7PBSq5oDxVqzrhVBw9gFSg"
+os.environ['GOOGLE_API_KEY'] = "your_api"
 import os
 import google.generativeai as genai
 from PIL import Image
 
 # Set your API key
-os.environ['GOOGLE_API_KEY'] = "AIzaSyDjawTJ9JHwR7PBSq5oDxVqzrhVBw9gFSg"
+os.environ['GOOGLE_API_KEY'] = "your_api"
 
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
